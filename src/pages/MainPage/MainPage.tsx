@@ -1,5 +1,15 @@
+import styles from './MainPage.module.scss';
+
 export function MainPage() {
-	return <>Hello</>;
+
+
+
+
+	return (
+		<div className={styles['div']}>
+        Hello
+		</div>
+	);
 }
 
 export default MainPage;

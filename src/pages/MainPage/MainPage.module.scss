@@ -1,3 +1,32 @@
-.div {
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Outfit:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.shop_now {
+    display: flex;
+    margin-top: 4%;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    .main_text {
+        display: flex;
+        font-family: 'Work sans', sans-serif;
+        font-size: 3em;
+        font-weight: 600;
+        height: 50px;
+        width: 600px;
+        flex-wrap: wrap;;
+        text-align: center;
+    }
+    .secondary_text {
+        display: flex;
+        margin-top: 14%;
+        font-family: 'Work sans', sans-serif;
+        font-size: 1.35em;
+        height: 50px;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        width: 600px;
+
+    }
 }

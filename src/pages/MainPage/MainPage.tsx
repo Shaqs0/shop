@@ -8,6 +8,7 @@ export function MainPage() {
 			<div className={styles['text']}>
 				<span className={styles['main_text']}> Discover the Ultimate Culinary Experience: Our</span>
 				<span className={styles['secondary_text']}>Elevate Your Kitchen with Our Cutting-Edge Appliances</span>
+				<button className={styles['btn']}>Shop Now</button>
 			</div>
 		</div>
 	);

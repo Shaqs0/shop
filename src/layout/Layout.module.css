@@ -55,6 +55,9 @@ ul a {
   text-decoration: none;
   color: #808287;
 }
+ul a:hover {
+  color: #5f6064;
+}
 
 button {
   background-color: #063723;

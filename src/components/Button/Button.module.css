@@ -1,0 +1,17 @@
+.small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F75D0E;
+  color: #FDDCC9;
+  font-weight: 700;
+  border: none;
+  width: 150px;
+  height: 45px;
+}

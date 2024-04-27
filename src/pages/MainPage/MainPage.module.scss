@@ -3,13 +3,14 @@
 .shop_now {
     display: flex;
     margin-top: 4%;
-    height: 230px;
     width: 100%;
     justify-content: center;
     align-items: center;
+
     .main_text {
         display: flex;
         font-family: 'Work sans', sans-serif;
+        font-style: italic;
         font-size: 3em;
         font-weight: 600;
         height: 50px;
@@ -19,22 +20,22 @@
     }
     .secondary_text {
         display: flex;
-        margin-top: 14%;
+        margin-top: 12.5%;
         font-family: 'Work sans', sans-serif;
+        font-style: italic;
         font-size: 1.35em;
+        letter-spacing: 0.3px;
+        font-weight: 500;
         height: 50px;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
         width: 600px;
     }
-    .btn {
+    .btn_container {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #F75D0E;
-        color: #FDDCC9;
-        border: none;
-        width: 120px;
+        margin-top: -4.25%;
     }
 }

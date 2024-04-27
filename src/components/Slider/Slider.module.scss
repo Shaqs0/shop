@@ -1,0 +1,14 @@
+.slider {
+    display: flex;
+    max-width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+
+    .slider_img {
+        display: flex;
+        width: 400px;
+        height: 250px;
+        margin: 5%;
+    }
+}

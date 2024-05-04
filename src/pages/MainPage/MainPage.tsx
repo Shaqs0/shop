@@ -19,6 +19,11 @@ export function MainPage() {
 			<div className={styles['splide']}>
 				<Slider/>
 			</div>
+			<div className={styles['footer']}>
+				<p className={styles['main_text']}>Revolutionize Your Cooking with Our Advanced Oven and Stove Solutions</p>
+				<p className={styles['secondary_text']}>Explore Our Comprehensive Collection of High-Performance Cooking Appliances that </p>
+				<Button appearence='small' className={styles['footer_btn']}>Learn more</Button>
+			</div>
 		</div>
 	);
 }
